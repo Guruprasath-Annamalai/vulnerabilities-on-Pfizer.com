@@ -33,7 +33,7 @@ Scan Type:
 |----------|----------|------------------|
 | XPath Injection | High | Not Manually Verified |
 | TLS Certificate | Medium | Requires Manual Validation |
-| Cross-Origin Resource Issues | Information | Not Manually Verified |
+| Cross-Origin Resource Issues | High | Not Manually Verified |
 
 ---
 
