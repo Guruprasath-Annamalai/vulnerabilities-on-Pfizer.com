@@ -36,6 +36,46 @@ Scan Type:
 | Cross-Origin Resource Issues | High | Not Manually Verified |
 
 ---
+# Observations
+## Reported Findings
+
+### 1. XPath Injection
+
+Severity:
+High
+
+Description:
+Burp Suite reported a possible XPath Injection during automated testing. The issue requires manual verification before it can be considered a valid vulnerability.
+
+Status:
+Not Verified
+
+---
+
+### 2. TLS Certificate
+
+Severity:
+Medium
+
+Description:
+Burp Suite reported a TLS certificate issue during the scan. Additional validation is required because certificate-related findings can depend on scanner configuration and trust settings.
+
+Status:
+Not Verified
+
+---
+
+### 3. Cross-Origin Resource Issues
+
+Severity:
+High
+
+Description:
+Burp Suite identified several cross-origin resource related observations. These findings require manual review to determine whether they present any practical security risk.
+
+Status:
+Not Verified
+
 
 ## Evidence
 
